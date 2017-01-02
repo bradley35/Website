@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+body{
+    background-color:white;
+    margin-top:75px;
+}
+p, h1, h4{
+    font-family: 'Poiret One', cursive;
+}
+h1{
+font-size:55pt;
+}
+line{
+    display:block;
+    width:200px;
+    margin: auto;
+    position: relative;
+    height:2px;
+    position:relative;
+    background-color: #898989;
+    text-align: center;
+    margin-bottom: 50px;
+}
+thinline{
+    display:table-cell;
+    width:100%;
+    position:absolute;
+    margin: auto;
+    height:1px;
+    background-color: #e3e3e3;
+    text-align: center;
+    left:0;
+}
+table{
+    display:block;
+    text-align: center;
+    width:100%;
+    max-width: 800px;
+    overflow:hidden;
+    left:50%;
+    position:relative;
+    transform: translate(-50%, 0);
+}
+h4{
+     font-size: 38pt;
+     margin-bottom: 25px;
+     margin-top: 10px;
+     font-weight: 600;
+}
+p{
+    font-size: 21pt;
+    font-weight:normal;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+date{
+    font-size: 12pt;
+    font-weight:normal;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #c3c3c3;
+}
+table text{
+
+    word-wrap: break-word;
+    display:table-cell;
+    vertical-align: middle;
+    width:auto;
+}
+
+table img{
+    white-space: normal;
+    width:250px;
+    height:250px;
+    vertical-align: middle;
+    display:table-cell;
+    border-radius: 20%;
+    position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+    table th{
+        display: block;
+        text-align: center;
+    }
+    table text h4{
+        /*width:calc(100vw - 46px);*/
+        display:block;
+    }
+    table text p{
+        max-width: 500px;
+        left:50%;
+        position:relative;
+        transform: translate(-50%, 0);
+    }
+
+    table tbody{
+        overflow:auto;
+	position:relative;
+	display:inline-block;
+    }
+    table img{
+	left:50%;
+	transform:translate(-50%, 0)
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    app img{
+        width:100%;
+        height:100%;
+    }
+}
+bar{
+    background-color: white;
+    top:0;
+    font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    padding-top:15px;
+    padding-bottom:15px;
+    /*margin-top:-9px;
+    margin-left:-8px;
+    margin-right:-8px;*/
+    margin-left:-8px;
+    width:100%;
+    box-sizing:border-box;
+    box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0);
+    text-align: left;
+    padding-left: 50px;
+    display:block;
+    position:fixed;
+    z-index: 100;
+
+}
+
+@keyframes boxShadow {
+    0% {
+        box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+       box-shadow: 0 -1px 25px 1px rgba(0, 0, 0, 0.302);
+    }
+}
+
+@keyframes boxShadowU {
+    100% {
+        box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0);
+    }
+
+    0% {
+       box-shadow: 0 -1px 25px 1px rgba(0, 0, 0, 0.302);
+    }
+}
+
+.goShadow{
+    animation-name: boxShadow;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+.undoShadow{
+        animation-name: boxShadowU;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+     /*animation-direction: alternate;*/
+     animation-fill-mode: both;
+}
