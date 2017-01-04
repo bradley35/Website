@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300');
 body{
     background-color:white;
     margin-top:75px;
 }
 p, h1, h4{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Poiret One', cursive;
 }
 h1{
 font-size:55pt;
 }
 line{
     display:block;
-    width:450px;
+    width:200px;
     margin: auto;
     position: relative;
     height:2px;
