@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100');
 body{
     background-color:white;
     margin-top:75px;
@@ -168,4 +169,19 @@ bar{
     animation-timing-function: linear;
      /*animation-direction: alternate;*/
      animation-fill-mode: both;
+}
+
+.footer{
+  margin-top:125px;
+  padding-top:20px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  font-weight: lighter;
+  border-top: 1px solid #0006;
+  display:block;
+  width:400px;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom:20px;
+  color: #0009;
 }
