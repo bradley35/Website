@@ -1,0 +1,39 @@
+{
+    "sections":[
+        {
+            "name":"Apps",
+            "appending":[
+                {
+                    "icon": "../Assets/Chromophobia_Icon_Fixed.png",
+                    "link":"https://itunes.apple.com/us/app/chromophobia-fear-of-colors/id972299014?ls=1&mt=8",
+                    "title": "Chromophobia",
+                    "date": "March, 2015",
+                    "description":"An entertaining game where you drag your fingers and try to stay between the barriers. This game was released about 1.5 years ago. Support for it has since been discontinued. Please disable WiFi before opening this app."
+                },
+                {
+                    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple3/v4/f7/4b/cb/f74bcb8e-2674-8723-6c21-1c3a2a0f63bb/mzl.xdpkjqkg.jpg/150x150bb.jpg",
+                    "link":"https://itunes.apple.com/us/app/hoop-n-roll/id950909675?ls=1&mt=8",
+                    "title": "Hoop n' Roll",
+                    "date": "December, 2014",
+                    "description":"Roll your ball through different hoops. Make your way through various levels of increasing difficulties that contain all different types of challenges, including teleportation, jump boost, and red traps. Try to get through the last one!"
+                },
+                {
+                    "icon":"https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/a5/a4/a8/a5a4a80f-a506-e89a-4aa3-e7a668d0c8d6/pr_source.jpg/150x150bb.jpg",
+                    "link":"https://itunes.apple.com/us/app/double-trouble/id978981479?ls=1&mt=8",
+                    "title": "Double-Trouble",
+                    "date": "April, 2015",
+                    "description":"A powerful force is pulling the two circles apart. Tap to pull them together but watch out because if they get too close they sway sides. Try to fit in the gaps that fall but nobody can last forever. It gets harder and harder until you can't take it anymore. It is always possible but the question is, how good are you?"
+
+
+                }
+            ]
+        },
+        
+        {
+            "name":"Open Source Projects",
+            "appending":"self"
+        }
+    ]
+
+
+}
